@@ -1,3 +1,4 @@
+package practice;
 // import java.util.Scanner;
 
 public class denemeler {
@@ -7,6 +8,6 @@ public class denemeler {
 
 
 
-        // 1.22.33
+        // 1.35.10
     }
 }

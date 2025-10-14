@@ -1,8 +1,8 @@
 package linkedlist;
 
-  public class Node <E> {
-  private E data;
-  private Node<E> next;
+  public class Node <E> { //
+  private E data;         //
+  private Node<E> next;   //
 
   // constructor
   public Node(E inputdata){

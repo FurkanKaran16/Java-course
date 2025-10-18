@@ -47,7 +47,12 @@ public class MyArrayList<E>{
 
   private boolean kapasiteArttir(){
     E[] temp = (E[]) new Object[this.kapasite*2];
-    for (int i = 0;this.elemansayisi;i++) // ...
+    for (int i = 0;i < this.elemansayisi;i++){
+      temp[i] = this.aList[i];
+    }
+    this.aList = temp;
+    this.kapasite = this.kapasite * 2;
+    return true;
   }
 
 }

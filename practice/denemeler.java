@@ -9,7 +9,7 @@ public class denemeler {
 
 
 
-        //2.28.00
+        //2.52.00
     
 }
 

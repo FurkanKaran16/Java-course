@@ -2,11 +2,7 @@ package arraylist;
 //import java.util.ArrayList; // javadan hazır arraylist özellikleri gelir 
 
 public class main {
-  public static void main(String[] args) {
-    MyArrayList<Integer> MyList = new MyArrayList<>();
-    MyList.ekle(1);
-    System.out.println("MyList: "+ MyList);
-  }
+  
   
 }
 

@@ -1,15 +1,14 @@
 package practice;
 // import java.util.Scanner;
-
-//import java.util.ArrayList;
-
+// import java.util.ArrayList;
+// import java.util.Comparator;
 
 public class denemeler {
   
 
 
 
-        //2.52.00
+        //3.04.024
     
 }
 

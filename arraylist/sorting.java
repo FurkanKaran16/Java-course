@@ -1,5 +1,8 @@
 package arraylist;
+import java.util.ArrayList;
 import java.util.Arrays;
+//import java.util.Comparator;
+import java.util.Comparator;
 
 class sorting {
   public static void main(String[] args){
@@ -9,7 +12,9 @@ class sorting {
       
       Arrays.sort(vowels);
       Arrays.sort(dates);
-      
+
+     
+
       System.out.println(Arrays.toString(vowels));
       System.out.println(Arrays.toString(dates));
       
@@ -21,7 +26,7 @@ class sorting {
       System.out.println(foundItemIndex);
       System.out.println(vowels);
       
-      
+      //-------------------------------------
       
       int nums[] = {16,9,25,7,14};
       // int startingIndex = 1;
@@ -34,6 +39,17 @@ class sorting {
       // Arrays.sort(nums,startingIndex,endingIndex);
       System.out.println(Arrays.toString(copyOfNums)); // both 0,0,0,0,0
 
+      //-------------------------------------
 
-    }  
+      ArrayList<Integer> denemeler = new ArrayList<>();
+      denemeler.add(45);
+      denemeler.add(23);
+      denemeler.add(57);
+      denemeler.add(12);
+      denemeler.sort(Comparator.reverseOrder());    // reverse sorting
+
+      System.out.println(denemeler);
+
+      denemeler.forEach(deneme -> {System.out.println(deneme * 2);} );
+    }
 }
